@@ -33,8 +33,8 @@ kbd.add_layer :lower, %i[
 #                                   when you click         while you keep press          `click the key`   `hold the key`
 kbd.define_mode_key :ALT_Q,       [ :KC_Q,                 :KC_LALT,                     150,              150]
 kbd.define_mode_key :GUI_X,       [ :KC_X,                 :KC_LGUI,                     150,              150 ]
-kbd.define_mode_key :RAISE_N,     [ :KC_N,                 :raise,                       150,              150 ]
-kbd.define_mode_key :LOWER_SPC,   [ :KC_SPACE,             :lower,                       150,              150 ]
+kbd.define_mode_key :RAISE_N,     [ :KC_N,                 :raise,                       150,              250 ]
+kbd.define_mode_key :LOWER_SPC,   [ :KC_SPACE,             :lower,                       150,              250 ]
 
 # `before_report` will work just right before reporting what keys are pushed to USB host.
 # You can use it to hack data by adding an instance method to Keyboard class by yourself.
