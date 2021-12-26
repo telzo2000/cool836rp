@@ -23,7 +23,7 @@ kbd.add_layer :raise, %i[
 ]
 kbd.add_layer :lower, %i[
     KC_TAB   KC_F1   KC_F2   KC_F3       KC_F4     KC_F5    KC_F6     KC_F7     KC_F8     KC_F9     KC_F10   KC_BSPACE
-    KC_LCTRL KC_AT   KC_BSLASH KC_SCOLON KC_SCOLON KC_QUOTE  KC_LEFT   KC_DOWN   KC_UP     KC_RIGHT KC_PIPE KC_ENTER
+    KC_LCTRL KC_AT   KC_BSLASH KC_SCOLON LSFT(KC_SCOLON) KC_QUOTE  KC_LEFT   KC_DOWN   KC_UP     KC_RIGHT KC_PIPE KC_ENTER
     KC_LSFT  KC_Z    KC_X    KC_C        KC_V      KC_B     LOWER_SPC  KC_N      KC_M      KC_LBRC  KC_RBRC  KC_SPACE 
 ]
 #
