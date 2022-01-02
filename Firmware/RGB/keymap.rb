@@ -24,7 +24,7 @@ kbd.add_layer :raise, %i[
 kbd.add_layer :lower, %i[
     KC_TAB   KC_F1   KC_F2   KC_F3       KC_F4     KC_F5    KC_F6     KC_F7     KC_F8     KC_F9     KC_F10   KC_BSPACE
     KC_LCTRL KC_AT   KC_BSLASH KC_SCOLON KC_SCOLON KC_QUOTE  KC_LEFT   KC_DOWN   KC_UP     KC_RIGHT KC_PIPE KC_ENTER
-    KC_LSFT  RGB_TOG    RGB_SPI RGB_HUI RGB_SAI      KC_B     LOWER_SPC  KC_N      KC_M      KC_LBRC  KC_RBRC  KC_SPACE 
+    KC_LSFT  RGB_TOG    RGB_MOD RGB_HUI RGB_HUD      KC_B     LOWER_SPC  KC_N      KC_M      KC_LBRC  KC_RBRC  KC_SPACE 
 ]
 #
 #                   Your custom     Keycode or             Keycode (only modifiers)      Release time      Re-push time
@@ -43,20 +43,19 @@ kbd.define_mode_key :LOWER_SPC,   [ :KC_SPACE,             :lower,              
 #  kbd.invert_sft if kbd.keys_include?(:KC_SCOLON)
 #  # You'll be also able to write `invert_ctl`, `invert_alt` and `invert_gui`
 #end
+
 rgb = RGB.new(
   0,    # pin number
-  3,    # size of underglow pixel
-  3,   # size of backlight pixel
-  false # 32bit data will be sent to a pixel if true while 24bit if false
+  36,    # size of underglow pixel
+  0,   # size of backlight pixel
+  true # 32bit data will be sent to a pixel if true while 24bit if false
 )
-# Set an effect
-#  `nil` or `:off` for turning off
-rgb.effect = :swirl
-# rgb.effect = :rainbow_mood
-# Set an action when you input
-#  `nil` or `:off` for turning off
-# rgb.action = :thunder
-# Append the feature. Will possibly be able to write `Keyboard#append(OLED.new)` in the future
-kbd.append rgb
+rgb.effect     = :breath
+rgb.speed      = 31  # 1-31  / default: 22
+rgb.hue        = 10  # 0-100 / default: 0
+rgb.saturation = 100 # 0-100 / default: 100
+rgb.max_value  = 10  # 1-31  / default: 13
+
+kbd.append rgb # `kbd` is an instance of Keyboard class that should be newed in advance
 
 kbd.start!
