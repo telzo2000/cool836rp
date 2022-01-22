@@ -1,5 +1,12 @@
 # cool836rp
 
+# Build guide
+https://github.com/telzo2000/cool836rp/blob/main/build_guide_for_cool836rp.md
+
+
+<br>
+<br>
+
 # what is a cool836rp?
 cool836rp is a new companion to cool836A.
 <br>
