@@ -7,7 +7,7 @@
 |1|PCB|1枚||Elecrow | |
 |2|M2ネジ|10本|4mm|DIYショップ等|10本程度で100円|
 |3|M2ネジ|4本|８mm|DIYショップ等|10本程度で100円|
-|4|M2スペーサー|丸型|８mm|[ヒロスギネット](https://www.hirosugi-net.co.jp/shop/default.aspx)<br>[遊舎工房](https://shop.yushakobo.jp)等|20個で748円（税込）@ヒロスギネット|
+|4|M2スペーサー|六角形型か丸型|８mm|[ヒロスギネット](https://www.hirosugi-net.co.jp/shop/default.aspx)<br>[遊舎工房](https://shop.yushakobo.jp)等|20個で748円（税込）@ヒロスギネット|
 |5|RP2040-Zero|Raspberry Pi Pico互換|ピンヘッダが必要|[WAVESHARE](https://www.waveshare.com/rp2040-zero.htm)|6ドル程度|
 |6|スイッチプレート|１枚|FR-4|Elecrow||
 |7|ボトムプレート|３枚（大１、小２）|アクリル|Elecrow||
@@ -65,10 +65,16 @@ PCBに「ラズベリーパイを食べるアリス（女の子）」のイラ�
 ## 4　RP2040-Zeroの取り付け
 RP2040-Zeroのハンダ付けをします。
 PCBの下面に取り付けます。
+<br>
 「ラズベリーパイを食べるアリス」の頭上にRP2040-Zeroが装着されれば、大丈夫です。
+<br>
 マスキングテープ等で仮固定をしてから、PCBの上面でハンダ付けをしてください。
 ピンヘッダの長すぎるピンはニッパー等で切断してください。
 <br>
+ピンが長いままですと、PCBに挿しこみが難しいので、切断することをお勧めします。
+<br>
+<br>
+
 
 ## 5　ファームウェア
 cool836rpは、PRK_FIRMWAREで動作します。
