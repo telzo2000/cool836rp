@@ -93,6 +93,8 @@ https://github.com/picoruby/prk_firmware/wiki/Tutorial
 <br>
 https://github.com/telzo2000/cool836rp/tree/main/Firmware
 
+PCBのバージョンでフォルダが違います。PCBに印字されているverを確認してください。
+<br>
 <br>
 それぞれが入手できましたら、チュートリアルを参照して、RP2040-Zeroにドラッグ＆ドロップしていけば、終了です。
 <br>
