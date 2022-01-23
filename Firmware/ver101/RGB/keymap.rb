@@ -4,11 +4,11 @@ kbd = Keyboard.new
 # Initialize GPIO assign
 kbd.init_pins(
   [ 9, 10, 11  ],            # row0, row1,... respectively
-  [ 1, 2, 3, 4, 5, 6, 14, 15, 26, 27, 28, 29 ]    # col0, col1,... respectively
+  [ 1, 2, 3, 4, 5, 6, 14, 15, 26, 27, 12, 13 ]    # col0, col1,... respectively
 )
 #keyboard.row_pins = (board.GP9, board.GP10, board.GP11)
-#keyboard.col_pins = (board.GP1, board.GP2, board.GP3, board.GP4, board.GP5, board.GP6, board.GP14, board.GP15, board.GP26, board.GP27, board.GP28, board.GP29)
-
+#keyboard.col_pins = (board.GP1, board.GP2, board.GP3, board.GP4, board.GP5, board.GP6, board.GP14, board.GP15, board.GP26, board.GP27, board.GP12, board.GP13)
+#cool836rp PCB ver.1.01
 
 # default layer should be added at first
 kbd.add_layer :default, %i[
