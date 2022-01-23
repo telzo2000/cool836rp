@@ -87,6 +87,7 @@ https://github.com/picoruby/prk_firmware
 
 ### (1)　導入の仕方 
 チュートリアルを参照して、最新のPRK_FIRMWAREを入手してください。
+
 https://github.com/picoruby/prk_firmware/wiki/Tutorial
 
 次に、このキーボード用のkeymap.rbを、次のところから入手してください。
