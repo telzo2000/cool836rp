@@ -9,7 +9,7 @@
 |3|M2ネジ|4本|８mm|DIYショップ等|10本程度で100円|
 |4|M2スペーサー|六角形型か丸型を７本|８mm|[ヒロスギネット](https://www.hirosugi-net.co.jp/shop/default.aspx)<br>[遊舎工房](https://shop.yushakobo.jp)等|20個で748円（税込）@ヒロスギネット|
 |5|RP2040-Zero|Raspberry Pi Pico互換|別途ピンヘッダが必要|[WAVESHARE](https://www.waveshare.com/rp2040-zero.htm)|5ドル程度|
-|6|スイッチプレート|１枚|FR-4|Elecrow||
+|6|スイッチプレート|１枚|FR-4<br>＜訳あり版＞はアクリル|Elecrow||
 |7|ボトムプレート|３枚（大１、小２）|アクリル|Elecrow||
 |8|スイッチソケット||MX|[遊舎工房](https://shop.yushakobo.jp)<br>[TALP keyboard](https://talpkeyboard.net)|10個で165円（税込）|
 |9|ダイオード||リードタイプ、SMDのどちらでも可|[遊舎工房](https://shop.yushakobo.jp)<br>[TALP keyboard](https://talpkeyboard.net)|100個で220円（税込）|
