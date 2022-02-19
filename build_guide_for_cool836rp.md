@@ -11,8 +11,8 @@
 |5|RP2040-Zero|Raspberry Pi Pico互換|別途ピンヘッダが必要|[WAVESHARE](https://www.waveshare.com/rp2040-zero.htm)|5ドル程度|
 |6|スイッチプレート|１枚|FR-4<br>＜訳あり版＞はアクリル|Elecrow||
 |7|ボトムプレート|３枚（大１、小２）|アクリル|Elecrow||
-|8|スイッチソケット||MX|[遊舎工房](https://shop.yushakobo.jp)<br>[TALP keyboard](https://talpkeyboard.net)|10個で165円（税込）|
-|9|ダイオード||リードタイプ、SMDのどちらでも可|[遊舎工房](https://shop.yushakobo.jp)<br>[TALP keyboard](https://talpkeyboard.net)|100個で220円（税込）|
+|8|スイッチソケット|36個|MX|[遊舎工房](https://shop.yushakobo.jp)<br>[TALP keyboard](https://talpkeyboard.net)|10個で165円（税込）|
+|9|ダイオード|36個|リードタイプ、SMDのどちらでも可|[遊舎工房](https://shop.yushakobo.jp)<br>[TALP keyboard](https://talpkeyboard.net)|100個で220円（税込）|
 |10|MXスイッチ|36個||[遊舎工房](https://shop.yushakobo.jp)<br>[TALP keyboard](https://talpkeyboard.net)等|1個で100円前後|
 |11|キーキャップ|36個||[遊舎工房](https://shop.yushakobo.jp)<br>[TALP keyboard](https://talpkeyboard.net)|1個で100円前後<br>キーキャップセットで3000円程度から|
 |12|ゴム足|PCB１枚につき４個|任意|DIYショップ等|100円程度|
