@@ -7,7 +7,7 @@
 |1|PCB|1枚||Elecrow | |
 |2|M2ネジ|10本|4mm|DIYショップ等|10本程度で100円|
 |3|M2ネジ|4本|８mm|DIYショップ等|10本程度で100円|
-|4|M2スペーサー|六角形型か丸型|８mm|[ヒロスギネット](https://www.hirosugi-net.co.jp/shop/default.aspx)<br>[遊舎工房](https://shop.yushakobo.jp)等|20個で748円（税込）@ヒロスギネット|
+|4|M2スペーサー|六角形型か丸型を７本|８mm|[ヒロスギネット](https://www.hirosugi-net.co.jp/shop/default.aspx)<br>[遊舎工房](https://shop.yushakobo.jp)等|20個で748円（税込）@ヒロスギネット|
 |5|RP2040-Zero|Raspberry Pi Pico互換|ピンヘッダが必要|[WAVESHARE](https://www.waveshare.com/rp2040-zero.htm)|6ドル程度|
 |6|スイッチプレート|１枚|FR-4|Elecrow||
 |7|ボトムプレート|３枚（大１、小２）|アクリル|Elecrow||
