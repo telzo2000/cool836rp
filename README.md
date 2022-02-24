@@ -1,6 +1,6 @@
 # cool836rp
 
-# Build guide
+# Build guide(Japanese only)
 https://github.com/telzo2000/cool836rp/blob/main/build_guide_for_cool836rp.md
 
 
